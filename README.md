@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:03/12/2024
+## Date:05/12/2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -48,40 +48,52 @@ cover.html
 
         .first{
             position: absolute;
-            top:23px;
-            left: 650px;
-            color: white;
+            top:49px;
+            left: 530px;
+            color: red;
             font-weight: 900;
             font-size: 32px;
-            font-style: none;
+            font-style: unset;
             line-height: 1.2;
             margin-bottom: 5px;
         }
 
         .second{
             position: absolute;
-            top: 60px;
-            left: 400px;
+            top: 140px;
+            left: 565px;
             color: white;
             font-style: italic;
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
-            font-size: 20px;
+            font-size: 35px;
             line-height: 1.2;
             margin-bottom: 5px;
         }
 
         .about{
             position: absolute;
-            top: 85px;
-            left: 525px;
+            top: 160px;
+            left: 550px;
             right: 540px;
-            color: white;
+            color: skyblue;
             font-style: oblique;
             font-variant: normal;
             font-weight: lighter;
             font-family: none;
-            font-size: 20px;
+            font-size: 65px;
+        }
+        .fourth{
+            position: absolute;
+            top: 350px;
+            left: 680px;
+            right: 540px;
+            color: white;
+            font-style: italic;
+            font-variant: normal;
+            font-weight: lighter;
+            font-family: none;
+            font-size: 35px;
         }
 
         .edition {
@@ -108,9 +120,9 @@ cover.html
         }
         .pub{
             position: absolute;
-            bottom: 40px;
+            bottom: 170px;
             right: 525px;
-            left: 940px;
+            left: 930px;
             color: rgb(213, 47, 47);
             font-style: oblique;
             font-variant: normal;
@@ -120,17 +132,17 @@ cover.html
         .raghu
         {
             position: absolute;
-            bottom: 110px;
+            bottom: 220px;
             right: 500px;
-            left: 915px;
+            left: 900px;
             width: 6%;
         }
 
         .pub2{
             position: absolute;
-            bottom: 20px;
+            bottom: 145px;
             right: 525px;
-            left: 890px;
+            left: 880px;
             color: rgb(213, 47, 47);
             font-style: oblique;
             font-variant: normal;
@@ -145,17 +157,17 @@ cover.html
 <body>
     <div class="cover">
         <center>
-            <img src="space.png" class="space">
+            <img src="cover image.png" class="space">
         </center>
         <center>
             <img src="RAGHU.JPG" class="Raghu">
         </center>
-        <h1 class="first">COSMOLOGY</h1>
-        <h3 class="second"></h3>
+        <h1 class="first">New Age...</h1>
+        <h2 class="second">A Course in</h2>
         <p class="about">
-            Cosmology is a branch of metaphysics that deals with the nature of the universe, a theory or doctrine
-            describing the natural order of the universe.
+            INFORMATION TECHNOLOGY <br>
         </p>
+        <h2 class="fourth">For Graduates</h2>
         <p class="edition">
             THIRD Edition
         </p>
@@ -180,7 +192,7 @@ cover.html
 
 ## OUTPUT:
 
-![alt text](<Screenshot (29).png>)
+![alt text](<Screenshot (30).png>)
 
 
 ## RESULT:
